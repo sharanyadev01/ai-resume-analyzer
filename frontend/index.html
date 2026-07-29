@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Analyzer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <div class="logo">
+        📄
+    </div>
+
+    <h1>AI Resume Analyzer</h1>
+</header>
+<section class="hero">
+
+    <h2>Improve Your Resume with AI</h2>
+
+    <p>
+        Upload your resume, paste a job description,
+        and receive instant AI-powered feedback.
+    </p>
+
+</section>
+<section class="upload-section">
+
+    <div class="upload-card">
+
+        <h2>Upload Your Resume</h2>
+
+        <p>Upload your resume in PDF format.</p>
+
+        <input type="file" id="resumeFile" accept=".pdf">
+
+    </div>
+
+</section>
+<section class="job-section">
+
+    <div class="job-card">
+
+        <h2>Job Description</h2>
+
+        <p>Paste the job description below.</p>
+
+        <textarea
+            id="jobDescription"
+            placeholder="Paste the job description here..."
+        ></textarea>
+
+    </div>
+
+</section>
+<section class="button-section">
+
+    <button id="analyzeBtn">
+        Analyze Resume
+    </button>
+
+</section>
+<section class="result-section">
+
+    <h2>Analysis Result</h2>
+
+    <div id="result"></div>
+
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
